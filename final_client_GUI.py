@@ -4,7 +4,7 @@ import tkinter as tk
 from tkinter import scrolledtext, messagebox
 
 # Client Configuration
-HOST = "192.168.29.2"  # Replace with the IP address or hostname of the server
+HOST = input("enter IP for SERVER SIDE:")  # Replace with the IP address or hostname of the server
 PORT = int(input("Enter 4 digit port number for SERVER SIDE:"))
 
 # Function to receive and display messages from the server
