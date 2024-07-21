@@ -3,7 +3,7 @@ import threading
 import random
 
 # Client Configuration
-HOST = "192.168.29.2" #input("enter IP for SERVER SIDE:")  # Replace with the IP address or hostname of the server
+HOST = input("enter IP for SERVER SIDE:")  # Replace with the IP address or hostname of the server
 
 PORT = int(input("enter 4 digit port number for SERVER SIDE:"))
 
